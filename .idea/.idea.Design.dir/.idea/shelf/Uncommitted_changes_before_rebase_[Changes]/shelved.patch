@@ -1,0 +1,583 @@
+Index: SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.props b/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.props
+new file mode 100644
+--- /dev/null	(date 1680168574160)
++++ b/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.props	(date 1680168574160)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="utf-8" standalone="no"?>
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
++    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
++    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\AlainBryanFatjoGomez\.nuget\packages\</NuGetPackageFolders>
++    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
++  </PropertyGroup>
++  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <SourceRoot Include="C:\Users\AlainBryanFatjoGomez\.nuget\packages\" />
++  </ItemGroup>
++</Project>
+\ No newline at end of file
+Index: SingleResponsibility/obj/SingleResponsibility.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.dgspec.json b/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.dgspec.json
+new file mode 100644
+--- /dev/null	(date 1680168574174)
++++ b/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.dgspec.json	(date 1680168574174)
+@@ -0,0 +1,63 @@
++{
++  "format": 1,
++  "restore": {
++    "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj": {}
++  },
++  "projects": {
++    "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj": {
++      "version": "1.0.0",
++      "restore": {
++        "projectUniqueName": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj",
++        "projectName": "SingleResponsibility",
++        "projectPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj",
++        "packagesPath": "C:\\Users\\AlainBryanFatjoGomez\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\obj\\",
++        "projectStyle": "PackageReference",
++        "configFilePaths": [
++          "C:\\Users\\AlainBryanFatjoGomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++        ],
++        "originalTargetFrameworks": [
++          "net7.0"
++        ],
++        "sources": {
++          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++          "https://api.nuget.org/v3/index.json": {}
++        },
++        "frameworks": {
++          "net7.0": {
++            "targetAlias": "net7.0",
++            "projectReferences": {}
++          }
++        },
++        "warningProperties": {
++          "warnAsError": [
++            "NU1605"
++          ]
++        }
++      },
++      "frameworks": {
++        "net7.0": {
++          "targetAlias": "net7.0",
++          "imports": [
++            "net461",
++            "net462",
++            "net47",
++            "net471",
++            "net472",
++            "net48",
++            "net481"
++          ],
++          "assetTargetFallback": true,
++          "warn": true,
++          "frameworkReferences": {
++            "Microsoft.NETCore.App": {
++              "privateAssets": "all"
++            }
++          },
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
++        }
++      }
++    }
++  }
++}
+\ No newline at end of file
+Index: SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.targets
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.targets b/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.targets
+new file mode 100644
+--- /dev/null	(date 1680168574162)
++++ b/SingleResponsibility/obj/SingleResponsibility.csproj.nuget.g.targets	(date 1680168574162)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8" standalone="no"?>
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+\ No newline at end of file
+Index: SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.deps.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.deps.json b/SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.deps.json
+new file mode 100644
+--- /dev/null	(date 1680169744732)
++++ b/SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.deps.json	(date 1680169744732)
+@@ -0,0 +1,23 @@
++{
++  "runtimeTarget": {
++    "name": ".NETCoreApp,Version=v7.0",
++    "signature": ""
++  },
++  "compilationOptions": {},
++  "targets": {
++    ".NETCoreApp,Version=v7.0": {
++      "SingleResponsibility/1.0.0": {
++        "runtime": {
++          "SingleResponsibility.dll": {}
++        }
++      }
++    }
++  },
++  "libraries": {
++    "SingleResponsibility/1.0.0": {
++      "type": "project",
++      "serviceable": false,
++      "sha512": ""
++    }
++  }
++}
+\ No newline at end of file
+Index: SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.runtimeconfig.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.runtimeconfig.json b/SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.runtimeconfig.json
+new file mode 100644
+--- /dev/null	(date 1680169744817)
++++ b/SingleResponsibility/bin/Debug/net7.0/SingleResponsibility.runtimeconfig.json	(date 1680169744817)
+@@ -0,0 +1,9 @@
++{
++  "runtimeOptions": {
++    "tfm": "net7.0",
++    "framework": {
++      "name": "Microsoft.NETCore.App",
++      "version": "7.0.0"
++    }
++  }
++}
+\ No newline at end of file
+Index: SingleResponsibility/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs b/SingleResponsibility/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+new file mode 100644
+--- /dev/null	(date 1680168394369)
++++ b/SingleResponsibility/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs	(date 1680168394369)
+@@ -0,0 +1,4 @@
++// <autogenerated />
++using System;
++using System.Reflection;
++[assembly: global::System.Runtime.Versioning.TargetFrameworkAttribute(".NETCoreApp,Version=v7.0", FrameworkDisplayName = ".NET 7.0")]
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsability.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.AssemblyInfo.cs b/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.AssemblyInfo.cs
+new file mode 100644
+--- /dev/null	(date 1680168394394)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.AssemblyInfo.cs	(date 1680168394394)
+@@ -0,0 +1,23 @@
++//------------------------------------------------------------------------------
++// <auto-generated>
++//     This code was generated by a tool.
++//     Runtime Version:4.0.30319.42000
++//
++//     Changes to this file may cause incorrect behavior and will be lost if
++//     the code is regenerated.
++// </auto-generated>
++//------------------------------------------------------------------------------
++
++using System;
++using System.Reflection;
++
++[assembly: System.Reflection.AssemblyCompanyAttribute("SingleResponsability")]
++[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
++[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyProductAttribute("SingleResponsability")]
++[assembly: System.Reflection.AssemblyTitleAttribute("SingleResponsability")]
++[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
++
++// Generated by the MSBuild WriteCodeFragment class.
++
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GlobalUsings.g.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GlobalUsings.g.cs b/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GlobalUsings.g.cs
+new file mode 100644
+--- /dev/null	(date 1680168391649)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GlobalUsings.g.cs	(date 1680168391649)
+@@ -0,0 +1,8 @@
++// <auto-generated/>
++global using global::System;
++global using global::System.Collections.Generic;
++global using global::System.IO;
++global using global::System.Linq;
++global using global::System.Net.Http;
++global using global::System.Threading;
++global using global::System.Threading.Tasks;
+Index: .idea/.idea.Design/.idea/projectSettingsUpdater.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Design/.idea/projectSettingsUpdater.xml b/.idea/.idea.Design/.idea/projectSettingsUpdater.xml
+new file mode 100644
+--- /dev/null	(date 1680169737871)
++++ b/.idea/.idea.Design/.idea/projectSettingsUpdater.xml	(date 1680169737871)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RiderProjectSettingsUpdater">
++    <option name="vcsConfiguration" value="2" />
++  </component>
++</project>
+\ No newline at end of file
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GeneratedMSBuildEditorConfig.editorconfig b/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GeneratedMSBuildEditorConfig.editorconfig
+new file mode 100644
+--- /dev/null	(date 1680168394366)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsability.GeneratedMSBuildEditorConfig.editorconfig	(date 1680168394366)
+@@ -0,0 +1,11 @@
++is_global = true
++build_property.TargetFramework = net7.0
++build_property.TargetPlatformMinVersion = 
++build_property.UsingMicrosoftNETSdkWeb = 
++build_property.ProjectTypeGuids = 
++build_property.InvariantGlobalization = 
++build_property.PlatformNeutralAssembly = 
++build_property.EnforceExtendedAnalyzerRules = 
++build_property._SupportedPlatformList = Linux,macOS,Windows
++build_property.RootNamespace = SingleResponsability
++build_property.ProjectDir = C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsability\
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.AssemblyInfo.cs b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.AssemblyInfo.cs
+new file mode 100644
+--- /dev/null	(date 1680168573757)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.AssemblyInfo.cs	(date 1680168573757)
+@@ -0,0 +1,23 @@
++//------------------------------------------------------------------------------
++// <auto-generated>
++//     This code was generated by a tool.
++//     Runtime Version:4.0.30319.42000
++//
++//     Changes to this file may cause incorrect behavior and will be lost if
++//     the code is regenerated.
++// </auto-generated>
++//------------------------------------------------------------------------------
++
++using System;
++using System.Reflection;
++
++[assembly: System.Reflection.AssemblyCompanyAttribute("SingleResponsibility")]
++[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
++[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyProductAttribute("SingleResponsibility")]
++[assembly: System.Reflection.AssemblyTitleAttribute("SingleResponsibility")]
++[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
++
++// Generated by the MSBuild WriteCodeFragment class.
++
+Index: SingleResponsibility/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/project.assets.json b/SingleResponsibility/obj/project.assets.json
+new file mode 100644
+--- /dev/null	(date 1680168574167)
++++ b/SingleResponsibility/obj/project.assets.json	(date 1680168574167)
+@@ -0,0 +1,68 @@
++{
++  "version": 3,
++  "targets": {
++    "net7.0": {}
++  },
++  "libraries": {},
++  "projectFileDependencyGroups": {
++    "net7.0": []
++  },
++  "packageFolders": {
++    "C:\\Users\\AlainBryanFatjoGomez\\.nuget\\packages\\": {}
++  },
++  "project": {
++    "version": "1.0.0",
++    "restore": {
++      "projectUniqueName": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj",
++      "projectName": "SingleResponsibility",
++      "projectPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj",
++      "packagesPath": "C:\\Users\\AlainBryanFatjoGomez\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\obj\\",
++      "projectStyle": "PackageReference",
++      "configFilePaths": [
++        "C:\\Users\\AlainBryanFatjoGomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++      ],
++      "originalTargetFrameworks": [
++        "net7.0"
++      ],
++      "sources": {
++        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++        "https://api.nuget.org/v3/index.json": {}
++      },
++      "frameworks": {
++        "net7.0": {
++          "targetAlias": "net7.0",
++          "projectReferences": {}
++        }
++      },
++      "warningProperties": {
++        "warnAsError": [
++          "NU1605"
++        ]
++      }
++    },
++    "frameworks": {
++      "net7.0": {
++        "targetAlias": "net7.0",
++        "imports": [
++          "net461",
++          "net462",
++          "net47",
++          "net471",
++          "net472",
++          "net48",
++          "net481"
++        ],
++        "assetTargetFallback": true,
++        "warn": true,
++        "frameworkReferences": {
++          "Microsoft.NETCore.App": {
++            "privateAssets": "all"
++          }
++        },
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
++      }
++    }
++  }
++}
+\ No newline at end of file
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.csproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.csproj.FileListAbsolute.txt b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.csproj.FileListAbsolute.txt
+new file mode 100644
+--- /dev/null	(date 1680169744832)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.csproj.FileListAbsolute.txt	(date 1680169744832)
+@@ -0,0 +1,15 @@
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\bin\Debug\net7.0\SingleResponsibility.exe
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\bin\Debug\net7.0\SingleResponsibility.deps.json
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\bin\Debug\net7.0\SingleResponsibility.runtimeconfig.json
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\bin\Debug\net7.0\SingleResponsibility.dll
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\bin\Debug\net7.0\SingleResponsibility.pdb
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.csproj.AssemblyReference.cache
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.AssemblyInfoInputs.cache
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.AssemblyInfo.cs
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.csproj.CoreCompileInputs.cache
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.dll
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\refint\SingleResponsibility.dll
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.pdb
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\SingleResponsibility.genruntimeconfig.cache
++C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\obj\Debug\net7.0\ref\SingleResponsibility.dll
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig
+new file mode 100644
+--- /dev/null	(date 1680168574348)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GeneratedMSBuildEditorConfig.editorconfig	(date 1680168574348)
+@@ -0,0 +1,11 @@
++is_global = true
++build_property.TargetFramework = net7.0
++build_property.TargetPlatformMinVersion = 
++build_property.UsingMicrosoftNETSdkWeb = 
++build_property.ProjectTypeGuids = 
++build_property.InvariantGlobalization = 
++build_property.PlatformNeutralAssembly = 
++build_property.EnforceExtendedAnalyzerRules = 
++build_property._SupportedPlatformList = Linux,macOS,Windows
++build_property.RootNamespace = SingleResponsability
++build_property.ProjectDir = C:\Users\AlainBryanFatjoGomez\personal\Design\SingleResponsibility\
+Index: SingleResponsibility/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/project.packagespec.json b/SingleResponsibility/obj/project.packagespec.json
+new file mode 100644
+--- /dev/null	(date 1680168573788)
++++ b/SingleResponsibility/obj/project.packagespec.json	(date 1680168573788)
+@@ -0,0 +1,1 @@
++"restore":{"projectUniqueName":"C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj","projectName":"SingleResponsibility","projectPath":"C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\SingleResponsibility.csproj","outputPath":"C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsibility\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net7.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net7.0":{"targetAlias":"net7.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net7.0":{"targetAlias":"net7.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GlobalUsings.g.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GlobalUsings.g.cs b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GlobalUsings.g.cs
+new file mode 100644
+--- /dev/null	(date 1680168573717)
++++ b/SingleResponsibility/obj/Debug/net7.0/SingleResponsibility.GlobalUsings.g.cs	(date 1680168573717)
+@@ -0,0 +1,8 @@
++// <auto-generated/>
++global using global::System;
++global using global::System.Collections.Generic;
++global using global::System.IO;
++global using global::System.Linq;
++global using global::System.Net.Http;
++global using global::System.Threading;
++global using global::System.Threading.Tasks;
+Index: SingleResponsibility/obj/SingleResponsability.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/SingleResponsability.csproj.nuget.dgspec.json b/SingleResponsibility/obj/SingleResponsability.csproj.nuget.dgspec.json
+new file mode 100644
+--- /dev/null	(date 1680168395142)
++++ b/SingleResponsibility/obj/SingleResponsability.csproj.nuget.dgspec.json	(date 1680168395142)
+@@ -0,0 +1,63 @@
++{
++  "format": 1,
++  "restore": {
++    "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsability\\SingleResponsability.csproj": {}
++  },
++  "projects": {
++    "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsability\\SingleResponsability.csproj": {
++      "version": "1.0.0",
++      "restore": {
++        "projectUniqueName": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsability\\SingleResponsability.csproj",
++        "projectName": "SingleResponsability",
++        "projectPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsability\\SingleResponsability.csproj",
++        "packagesPath": "C:\\Users\\AlainBryanFatjoGomez\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\AlainBryanFatjoGomez\\personal\\Design\\SingleResponsability\\obj\\",
++        "projectStyle": "PackageReference",
++        "configFilePaths": [
++          "C:\\Users\\AlainBryanFatjoGomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++        ],
++        "originalTargetFrameworks": [
++          "net7.0"
++        ],
++        "sources": {
++          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++          "https://api.nuget.org/v3/index.json": {}
++        },
++        "frameworks": {
++          "net7.0": {
++            "targetAlias": "net7.0",
++            "projectReferences": {}
++          }
++        },
++        "warningProperties": {
++          "warnAsError": [
++            "NU1605"
++          ]
++        }
++      },
++      "frameworks": {
++        "net7.0": {
++          "targetAlias": "net7.0",
++          "imports": [
++            "net461",
++            "net462",
++            "net47",
++            "net471",
++            "net472",
++            "net48",
++            "net481"
++          ],
++          "assetTargetFallback": true,
++          "warn": true,
++          "frameworkReferences": {
++            "Microsoft.NETCore.App": {
++              "privateAssets": "all"
++            }
++          },
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
++        }
++      }
++    }
++  }
++}
+\ No newline at end of file
+Index: SingleResponsibility/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/rider.project.restore.info b/SingleResponsibility/obj/rider.project.restore.info
+new file mode 100644
+--- /dev/null	(date 1680168574177)
++++ b/SingleResponsibility/obj/rider.project.restore.info	(date 1680168574177)
+@@ -0,0 +1,1 @@
++16801685741745310
+\ No newline at end of file
+Index: SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.targets
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.targets b/SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.targets
+new file mode 100644
+--- /dev/null	(date 1680168395139)
++++ b/SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.targets	(date 1680168395139)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8" standalone="no"?>
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+\ No newline at end of file
+Index: SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.props b/SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.props
+new file mode 100644
+--- /dev/null	(date 1680168395138)
++++ b/SingleResponsibility/obj/SingleResponsability.csproj.nuget.g.props	(date 1680168395138)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="utf-8" standalone="no"?>
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
++    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
++    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\AlainBryanFatjoGomez\.nuget\packages\</NuGetPackageFolders>
++    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
++  </PropertyGroup>
++  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <SourceRoot Include="C:\Users\AlainBryanFatjoGomez\.nuget\packages\" />
++  </ItemGroup>
++</Project>
+\ No newline at end of file
