@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{A29CE015-49F4-4041-AB7D-A131F48B0172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{EF8E46A6-F922-4AD8-A034-3AC3CA841278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,7 @@ Global
 		{697FD738-1B37-4E45-B7B5-EE54E2AAEAB2} = {D1FC8DFD-2005-42A6-B107-C507992AFE82}
 		{28D856DF-B436-4081-A11D-5D3CA27C5B88} = {D1FC8DFD-2005-42A6-B107-C507992AFE82}
 		{A29CE015-49F4-4041-AB7D-A131F48B0172} = {D1FC8DFD-2005-42A6-B107-C507992AFE82}
+		{EF8E46A6-F922-4AD8-A034-3AC3CA841278} = {D1FC8DFD-2005-42A6-B107-C507992AFE82}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{697FD738-1B37-4E45-B7B5-EE54E2AAEAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -37,5 +40,9 @@ Global
 		{A29CE015-49F4-4041-AB7D-A131F48B0172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A29CE015-49F4-4041-AB7D-A131F48B0172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A29CE015-49F4-4041-AB7D-A131F48B0172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8E46A6-F922-4AD8-A034-3AC3CA841278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8E46A6-F922-4AD8-A034-3AC3CA841278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8E46A6-F922-4AD8-A034-3AC3CA841278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8E46A6-F922-4AD8-A034-3AC3CA841278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
