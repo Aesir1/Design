@@ -26,6 +26,7 @@ public class CarBuilder
 
         public Car Build()
         {
+            Console.WriteLine($"""{nameof(car)} of type {car.Type} with {car.WheelSize}" wheel size was built.""");
             return car;
         }
     }

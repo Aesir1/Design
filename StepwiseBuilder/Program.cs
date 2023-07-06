@@ -2,5 +2,4 @@
 
 using StepwiseBuilder;
 
-var car = CarBuilder.Create().OfType(CarType.Crossover).WithWheels(18).Build();
-Console.WriteLine("Hello, World!");
+CarBuilder.Create().OfType(CarType.Crossover).WithWheels(18).Build();
