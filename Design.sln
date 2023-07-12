@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepwiseBuilder", "Stepwise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalBuilder", "FunctionalBuilder\FunctionalBuilder.csproj", "{9BF7B612-4E14-4AAB-9D13-7EFBB159954D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacetedBuilder", "FacetedBuilder\FacetedBuilder.csproj", "{F58290D7-427E-4979-8E19-F1C0F3ADE81A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,7 @@ Global
 		{6D6F4133-4DFA-4F40-9D72-341CED812CCC} = {89D6A23C-2DCB-496B-AB0C-E912E20F3AE2}
 		{A1F8216A-7FFD-408E-AFC1-808BADA84D15} = {89D6A23C-2DCB-496B-AB0C-E912E20F3AE2}
 		{9BF7B612-4E14-4AAB-9D13-7EFBB159954D} = {89D6A23C-2DCB-496B-AB0C-E912E20F3AE2}
+		{F58290D7-427E-4979-8E19-F1C0F3ADE81A} = {89D6A23C-2DCB-496B-AB0C-E912E20F3AE2}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{697FD738-1B37-4E45-B7B5-EE54E2AAEAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -79,5 +82,9 @@ Global
 		{9BF7B612-4E14-4AAB-9D13-7EFBB159954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF7B612-4E14-4AAB-9D13-7EFBB159954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF7B612-4E14-4AAB-9D13-7EFBB159954D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58290D7-427E-4979-8E19-F1C0F3ADE81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58290D7-427E-4979-8E19-F1C0F3ADE81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58290D7-427E-4979-8E19-F1C0F3ADE81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58290D7-427E-4979-8E19-F1C0F3ADE81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
